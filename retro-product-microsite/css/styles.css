@@ -1,0 +1,275 @@
+/* Styling for the contact form */
+ #contactForm{
+  text-align: center;
+}
+#submitButton{
+  text-align: center;
+} 
+
+/* Resetting default margin and padding for various elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+/* Styles for the header */
+header {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles for the navigation menu */
+nav {
+  background-color: #444;
+  padding: 8px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Styles for the products section */
+section#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  background-color: #fff;
+}
+
+/* Styles for individual product items */
+.product {
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product h2 {
+  margin-top: 10px;
+}
+
+.product p:last-child {
+  margin-top: 20px;
+}
+
+/* Styling for buttons */
+button {
+  display: block;
+  margin-top: 20px;
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+/* Additional styles for images */
+img {
+width: 300px;
+height: 200px;
+border: 5px solid black;
+}
+
+/* Styles for the shopping cart */
+#cart {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#cart h2 {
+  margin-bottom: 10px;
+}
+
+#cartItems {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cartItems li {
+  margin-bottom: 5px;
+}
+
+/* Global styles for body and headers */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: aliceblue;
+}
+
+header, footer {
+background-color: #333;
+color: #fff;
+padding: 10px;
+}
+
+/* Additional global styles for body and headers */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Styles for the header */
+header {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles for the navigation menu */
+nav {
+  background-color: #444;
+  padding: 8px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Centered text styles */
+#k {
+text-align: center;
+font-size: 30px;
+}
+
+#hello {
+color:#0bd0e6;
+font-size: 20px;
+}
+
+/* Styles for the welcome section */
+section#welcome {
+  padding: 30px;
+  text-align: center;
+  background-color: #fff;
+  color: #444;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#r {
+color: #e60bde;
+font-size: 24px;
+}
+
+/* Styles for the footer */
+footer {
+background-color: #e33424;
+padding: 20px;
+}
+
+/* Global styles for body and html */
+body, html {
+color: #291ab8;
+margin: 0;
+padding: 0;
+background-color: aliceblue;
+}
+
+/* Styles for the image container */
+.image-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #262536;
+}
+
+/* Styles for the centered image */
+#centered-image {
+width: 900px;
+height: auto;
+display: block;
+}
+
+/* Styles for the text animation */
+.text-animation {
+font-size: 48px;
+animation: colorChange 2s infinite alternate;
+}
+
+/* Keyframes for the color change animation */
+@keyframes colorChange {
+0% {
+  color: red;
+}
+25% {
+  color: blue;
+}
+50% {
+  color: green;
+}
+75% {
+  color: purple;
+}
+100% {
+  color: orange;
+}
+}
+
+/* Additional styles for the section with the ID "about our game" */
+#about our game {
+color: antiquewhite;
+}
+/*h2 styling*/
+h2{
+  text-align: center;
+  
+}
+/*button styling*/
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+/*hover effect */
+button:hover {
+  background-color: #383629;
+}
+
